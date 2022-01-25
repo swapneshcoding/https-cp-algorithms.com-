@@ -6,7 +6,6 @@ F(2*P+2 = 2000000016) = 0
 F(2*P+3 = 2000000017) = 1
 */
 
-
 #include<bits/stdc++.h>
 using namespace std;
 
