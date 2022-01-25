@@ -1,4 +1,6 @@
 /*
+https://en.wikipedia.org/wiki/Pisano_period
+
 fibonacci modulo (P = 10**9 + 7)
 F(0) = 0
 F(1) = 1
