@@ -11,11 +11,11 @@ vector<bool> Seive_of_Eratosthenes(int n) {
 		if ((6 * i - 1) * (6 * i - 1) > n)
 			break;
 		if (isPrime[6 * i - 1])
-			for (int j = (6 * i - 1) * (6 * i - 1); j <= n; j += 6 * i - 1) isPrime[j] = false;
+			for (int j = (6 * i - 1) * (6 * i - 1); j <= n; j += 2 * (6 * i - 1)) isPrime[j] = false;
 		if ((6 * i + 1) * (6 * i + 1) > n)
 			break;
 		if (isPrime[6 * i + 1])
-			for (int j = (6 * i + 1) * (6 * i + 1); j <= n; j += 6 * i + 1) isPrime[j] = false;
+			for (int j = (6 * i + 1) * (6 * i + 1); j <= n; j += 2 * (6 * i + 1)) isPrime[j] = false;
 	}
 	return isPrime;
 }
