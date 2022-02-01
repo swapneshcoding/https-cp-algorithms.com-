@@ -3,7 +3,7 @@ using namespace std;
 #define ll long long int
 #define ull unsigned ll
 inline void debugMode() {
-#ifndef ONLINE_JUDGE
+#ifndef ONLINE_JUDG
 	freopen("input.txt", "r", stdin);
 	freopen("output.txt", "w", stdout);
 #endif // ONLINE_JUDGE
