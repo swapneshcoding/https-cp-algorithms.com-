@@ -1,3 +1,6 @@
+//https://www.spoj.com/problems/GCDEX/
+//GCDEX - GCD Extreme
+
 #include<bits/stdc++.h>
 using namespace std;
 
