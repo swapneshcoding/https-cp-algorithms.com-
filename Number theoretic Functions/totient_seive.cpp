@@ -30,7 +30,5 @@ int main() {
 	auto V = totient_seive(10);
 	for (int i = 1; i <= 10; i++)
 		cout << "phi(" << i << ") = " << V[i] << "\n";
-
-
 }
 
