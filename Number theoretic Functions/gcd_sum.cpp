@@ -36,6 +36,7 @@ void gcd_sum_seive(int n = 1e6) {
 		for (int f = 2 * d; f <= n; f += d)
 			gcd_sum[f] += d * Totient[f / d];
 	}
+	// comment below lines for simple gcd sum
 	for (int i = 1; i <= n; i++)
 		gcd_sum[i] += gcd_sum[i - 1];
 }
